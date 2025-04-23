@@ -24,9 +24,6 @@ const UserSchema = new mongoose.Schema({
     password: String,
     referredBy: String
 });
-// server.js এর ভিতরে এই লাইনগুলো যোগ করো
-const authRoutes = require('./auth'); // যদি auth.js একই ফোল্ডারে থাকে
-app.use('/api/auth', authRoutes);
 const User = mongoose.model('User', UserSchema);
 
 // Signup route
