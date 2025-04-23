@@ -1,5 +1,5 @@
 {
-  "name": "sopno-backend",
+  "name": "online-income-backend",
   "version": "1.0.0",
   "description": "Online Income Platform Backend",
   "main": "server.js",
@@ -18,3 +18,5 @@
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
+  }
+}
