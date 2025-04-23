@@ -64,7 +64,7 @@ app.post('/api/users/login', async (req, res) => {
         res.status(500).json({ message: 'সার্ভারে সমস্যা হয়েছে।' });
     }
 });
-
+app.use('/api/refer', require('./reffer'));
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
