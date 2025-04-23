@@ -5,7 +5,7 @@ const jwt = require('jsonwebtoken');
 const router = express.Router();
 
 // Secret key for signing tokens (same key used during login)
-const SECRET_KEY = 'your_jwt_secret_key'; // পরিবর্তন করো এবং সুরক্ষিত রাখো
+const SECRET_KEY = 'sopno_jwt_2025_secret_key'; // পরিবর্তন করো এবং সুরক্ষিত রাখো
 
 // Token verification route
 router.post('/verify', (req, res) => {
